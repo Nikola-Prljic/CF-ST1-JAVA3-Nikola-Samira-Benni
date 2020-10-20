@@ -9,6 +9,7 @@ public class Task3part2 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Number Here: ");
         number = input.nextInt();
+        //using switch to get different results with different numbers
         switch(number){
             case 1:
                 System.out.println("today is Monday");
